@@ -199,21 +199,25 @@
                         </li>
                       </template>
 
-                      <li class="fdropdown">
-                        <a href="pages/projects.html">Projects</a>
+                      <template>
+                        <li class="fdropdown">
+                          <a href="pages/projects.html">Projects</a>
 
-                        <template project-droplist>
-                          <ul>
-                            <li><a href="projects.html">Project Grid</a></li>
-                            <li>
-                              <a href="project-list.html">Project List</a>
-                            </li>
-                            <li>
-                              <a href="project-details.html">Project Details</a>
-                            </li>
-                          </ul>
-                        </template>
-                      </li>
+                          <template project-droplist>
+                            <ul>
+                              <li><a href="projects.html">Project Grid</a></li>
+                              <li>
+                                <a href="project-list.html">Project List</a>
+                              </li>
+                              <li>
+                                <a href="project-details.html"
+                                  >Project Details</a
+                                >
+                              </li>
+                            </ul>
+                          </template>
+                        </li>
+                      </template>
 
                       <template blog>
                         <li class="dropdown">
@@ -327,11 +331,11 @@
       <!-- Hero Section Start -->
       <section
         class="hero-area pt-185 rpt-150 rel z-1"
-        style="background-image: url(/assets/images/hero/hero-two-bg.png)"
+        style="fbackground-image: url(/assets/images/hero/hero-two-bg.png)"
       >
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 hero-order-1">
               <div class="hero-content wow fadeInLeft delay-0-2s">
                 <h1>
                   Triux Design Agency
@@ -339,20 +343,18 @@
                 </h1>
               </div>
             </div>
-            <template>
-              <div class="col-lg-4">
-                <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
-                  <img src="assets/images/hero/hero-right.png" alt="Hero" />
-                </div>
+            <div class="col-lg-4 hero-order-2">
+              <div class="hero-right-image mt-20 wow fadeInUp delay-0-4s">
+                <img src="assets/images/hero/mask-design.png" alt="Hero" />
               </div>
-            </template>
+            </div>
           </div>
         </div>
 
         <template hero-img>
           <div class="container-fluid">
             <div class="hero-bottom-image">
-              <img src="assets/images/hero/hero.jpg" alt="Hero" />
+              <img src="assets/images/hero/mask-design.png" alt="Hero" />
               <div class="hero-social">
                 <a href="#"
                   ><i class="fab fa-facebook-f"></i> <span>Facebook</span></a
@@ -448,14 +450,13 @@
                     <span>01</span>
                   </div>
                   <div class="content">
-                    <h5>Mobile Solutions</h5>
+                    <h5>Branding</h5>
                     <p>
-                      At Triux, we understand the growing importance of mobile
-                      technology in today's digital landscape. Our team excels
-                      in creating mobile solutions that are responsive,
-                      user-friendly, and visually appealing. Whether you need a
-                      mobile app or a mobile-friendly website, we've got you
-                      covered.
+                      Our branding services help you establish a strong and
+                      memorable brand identity. From logo design to brand
+                      guidelines, we ensure consistency across all your
+                      marketing materials, leaving a lasting impact on your
+                      target audience.
                     </p>
                     <template services-read-more>
                       <a class="read-more style-two" href="service-details.html"
@@ -472,13 +473,11 @@
                   <div class="content">
                     <h5>Web Solutions</h5>
                     <p>
-                      Our expertise in web solutions enables us to design and
-                      develop websites that are not only visually stunning but
-                      also highly functional. We leverage the latest
-                      technologies and industry best practices to create
-                      websites that engage users and drive conversions. From
-                      simple static websites to complex e-commerce platforms, we
-                      have the skills to bring your vision to life.
+                      We specialize in crafting visually appealing and
+                      user-friendly websites that drive results. Our team is
+                      proficient in the latest web technologies, ensuring that
+                      your website not only looks great but also functions
+                      seamlessly across all devices.
                     </p>
                     <template services-read-more>
                       <a class="read-more style-two" href="service-details.html"
@@ -493,15 +492,12 @@
                     <span>03</span>
                   </div>
                   <div class="content">
-                    <h5>Custom Solutions</h5>
+                    <h5>Influencer Marketing</h5>
                     <p>
-                      Every business has unique requirements, and off-the-shelf
-                      solutions may not always fit the bill. That's where Triux
-                      comes in. Our team specializes in creating custom
-                      solutions tailored to your specific needs. We work closely
-                      with you to understand your goals and objectives, ensuring
-                      that the end product aligns perfectly with your business
-                      requirements.
+                      Unlock the power of influencer marketing with our
+                      strategic campaigns. We connect you with influential
+                      personalities who can help amplify your brand's reach and
+                      engagement, driving increased awareness and conversions.
                     </p>
                     <template services-read-more>
                       <a class="read-more style-two" href="service-details.html"
@@ -607,11 +603,11 @@
                 </div>
                 <div class="content">
                   <p>
-                    Our web design experts can transform your ideas and concepts
-                    into visually stunning designs using Figma, a powerful
-                    design tool. We take pride in creating beautiful and
-                    user-friendly interfaces that effectively communicate your
-                    brand message.
+                    Transform your design concepts into pixel-perfect websites
+                    with our expertise in converting Figma designs into fully
+                    functional web interfaces. We pay meticulous attention to
+                    detail to ensure your website reflects your brand's
+                    aesthetics.
                   </p>
                   <template services-read-more>
                     <a class="read-more style-two" href="service-details.html"
@@ -631,10 +627,10 @@
                 </div>
                 <div class="content">
                   <p>
-                    If you have design files in formats like PSD, Figma, or XD,
-                    we can convert them into high-quality HTML code. Our skilled
-                    developers ensure pixel-perfect conversion, maintaining the
-                    integrity of your design while optimizing it for the web.
+                    Leave the hassle of converting your design files to HTML to
+                    us. Our experienced developers will seamlessly convert your
+                    PSD, Figma, or XD designs into clean and responsive HTML
+                    code, ensuring your website looks great across all devices.
                   </p>
                   <template services-read-more>
                     <a class="read-more style-two" href="service-details.html"
@@ -654,11 +650,10 @@
                 </div>
                 <div class="content">
                   <p>
-                    WordPress is a versatile and popular content management
-                    system (CMS) that powers millions of websites worldwide. Our
-                    team specializes in WordPress development, creating custom
-                    themes and plugins that enhance the functionality and
-                    aesthetics of your website.
+                    Harness the power of WordPress with our expert development
+                    services. We create custom WordPress websites that are easy
+                    to manage, scalable, and optimized for search engines,
+                    empowering you to take control of your online presence.
                   </p>
                   <template services-read-more>
                     <a class="read-more style-two" href="service-details.html"
@@ -676,10 +671,11 @@
                 </div>
                 <div class="content">
                   <p>
-                    React is a powerful JavaScript library for building user
-                    interfaces. Our experienced developers are well-versed in
-                    React and can develop dynamic and interactive web
-                    applications that provide an exceptional user experience.
+                    Build fast and interactive user interfaces with our React
+                    development services. Our team of skilled developers
+                    leverages the latest tools and technologies to create
+                    dynamic web applications that provide an immersive user
+                    experience.
                   </p>
                   <template services-read-more>
                     <a class="read-more style-two" href="service-details.html"
@@ -1503,18 +1499,18 @@
                 <div class="footer-contact-info wow fadeInUp delay-0-3s">
                   <a
                     class="theme-btn style-three"
-                    href="https://demo.webtend.net/cdn-cgi/l/email-protection#97e4e2e7e7f8e5e3d7f0faf6fefbb9f4f8fa"
+                    href="mailto:triuxagency@gmail.com"
                     ><span
                       class="__cf_email__"
-                      data-cfemail="0e7d7b7e7e617c7a4e69636f6762206d6163"
-                      >[email&#160;protected]</span
-                    >
+                      fdata-cfemail="0e7d7b7e7e617c7a4e69636f6762206d6163"
+                      >triuxagency@gmail.com
+                    </span>
                     <i class="far fa-arrow-right"></i
                   ></a>
                   <a
                     class="theme-btn style-three phone-number"
-                    href="callto:+000(123)45688"
-                    >+000 (123) 456 88 <i class="far fa-arrow-right"></i
+                    href="callto:+2348123686782"
+                    >+234 (812) 368 6782 <i class="far fa-arrow-right"></i
                   ></a>
                 </div>
               </div>

@@ -4824,12 +4824,21 @@ h6,
 }
 
 @media only screen and (max-width: 991px) {
+  .hero-order-1 {
+    order: 2 !important;
+  }
+
+  .hero-order-2 {
+    order: 1 !important;
+  }
+
   .hero-right-image {
     z-index: -1;
-    position: absolute;
-    right: 3%;
-    top: 5%;
-    max-width: 30%;
+    order: 1;
+    /* position: absolute;
+    right: 20%;
+    top: 40%; */
+    /* max-width: 80%; */
   }
 }
 
