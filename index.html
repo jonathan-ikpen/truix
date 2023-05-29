@@ -81,160 +81,168 @@
                     </div>
 
                     <!-- Toggle Button -->
-                    <button
-                      type="button"
-                      class="navbar-toggle"
-                      data-bs-toggle="collapse"
-                      data-bs-target=".navbar-collapse"
-                    >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
+                    <template>
+                      <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                      >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </template>
                   </div>
 
-                  <div class="navbar-collapse collapse clearfix">
-                    <ul class="navigation clearfix">
-                      <li class="fdropdown">
-                        <a href="index.html">Home</a>
-
-                        <template home-droplist>
-                          <ul>
-                            <li class="dropdown">
-                              <a href="#">MultiPage</a>
-                              <ul>
-                                <li><a href="index-2.html">Web Design</a></li>
-                                <li>
-                                  <a href="index2.html">Web Development</a>
-                                </li>
-                                <li>
-                                  <a href="index3.html"
-                                    >Creative Design Studio</a
-                                  >
-                                </li>
-                                <li><a href="index4.html">Web Developer</a></li>
-                              </ul>
-                            </li>
-                            <li class="dropdown">
-                              <a href="#">OnePage</a>
-                              <ul>
-                                <li>
-                                  <a href="index1-onepage.html">Web Design</a>
-                                </li>
-                                <li>
-                                  <a href="index2-onepage.html"
-                                    >Web Development</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="index3-onepage.html"
-                                    >Creative Design Studio</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="index4-onepage.html"
-                                    >Web Developer</a
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </template>
-                      </li>
-
-                      <li><a href="pages/contact.html">Contact us</a></li>
-
-                      <template about-page>
-                        <li><a href="about.html">About Us</a></li>
-                      </template>
-
-                      <template pages>
-                        <li class="dropdown">
-                          <a href="#">pages</a>
-                          <ul>
-                            <li><a href="faqs.html">faqs</a></li>
-                            <li class="dropdown">
-                              <a href="#">Products</a>
-                              <ul>
-                                <li><a href="shop.html">our Products</a></li>
-                                <li>
-                                  <a href="product-details.html"
-                                    >Product Details</a
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="dropdown">
-                              <a href="#">Team</a>
-                              <ul>
-                                <li><a href="team.html">Team Members</a></li>
-                                <li>
-                                  <a href="team-details.html">Team Details</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li><a href="pricing.html">Pricing Plan</a></li>
-                            <li><a href="404.html">404 error</a></li>
-                          </ul>
-                        </li>
-                      </template>
-
-                      <template services-droplist>
+                  <template>
+                    <div class="navbar-collapse collapse clearfix">
+                      <ul class="navigation clearfix">
                         <li class="fdropdown">
-                          <a href="pages/services.html">Services</a>
+                          <a href="index.html">Home</a>
 
-                          <ul>
-                            <li><a href="services.html">Our Services</a></li>
-                            <li>
-                              <a href="service-details.html"
-                                >Service Details One</a
-                              >
-                            </li>
-                            <li>
-                              <a href="service-details2.html"
-                                >Service Details Two</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                      </template>
-
-                      <template>
-                        <li class="fdropdown">
-                          <a href="pages/projects.html">Projects</a>
-
-                          <template project-droplist>
+                          <template home-droplist>
                             <ul>
-                              <li><a href="projects.html">Project Grid</a></li>
-                              <li>
-                                <a href="project-list.html">Project List</a>
+                              <li class="dropdown">
+                                <a href="#">MultiPage</a>
+                                <ul>
+                                  <li><a href="index-2.html">Web Design</a></li>
+                                  <li>
+                                    <a href="index2.html">Web Development</a>
+                                  </li>
+                                  <li>
+                                    <a href="index3.html"
+                                      >Creative Design Studio</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="index4.html">Web Developer</a>
+                                  </li>
+                                </ul>
                               </li>
-                              <li>
-                                <a href="project-details.html"
-                                  >Project Details</a
-                                >
+                              <li class="dropdown">
+                                <a href="#">OnePage</a>
+                                <ul>
+                                  <li>
+                                    <a href="index1-onepage.html">Web Design</a>
+                                  </li>
+                                  <li>
+                                    <a href="index2-onepage.html"
+                                      >Web Development</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="index3-onepage.html"
+                                      >Creative Design Studio</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="index4-onepage.html"
+                                      >Web Developer</a
+                                    >
+                                  </li>
+                                </ul>
                               </li>
                             </ul>
                           </template>
                         </li>
-                      </template>
 
-                      <template blog>
-                        <li class="dropdown">
-                          <a href="#">blog</a>
-                          <ul>
-                            <li><a href="blog.html">blog Grid</a></li>
-                            <li>
-                              <a href="blog-standard.html">blog standard</a>
-                            </li>
-                            <li>
-                              <a href="blog-details.html">blog details</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </template>
-                    </ul>
-                  </div>
+                        <li><a href="pages/contact.html">Contact us</a></li>
+
+                        <template about-page>
+                          <li><a href="about.html">About Us</a></li>
+                        </template>
+
+                        <template pages>
+                          <li class="dropdown">
+                            <a href="#">pages</a>
+                            <ul>
+                              <li><a href="faqs.html">faqs</a></li>
+                              <li class="dropdown">
+                                <a href="#">Products</a>
+                                <ul>
+                                  <li><a href="shop.html">our Products</a></li>
+                                  <li>
+                                    <a href="product-details.html"
+                                      >Product Details</a
+                                    >
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#">Team</a>
+                                <ul>
+                                  <li><a href="team.html">Team Members</a></li>
+                                  <li>
+                                    <a href="team-details.html">Team Details</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a href="pricing.html">Pricing Plan</a></li>
+                              <li><a href="404.html">404 error</a></li>
+                            </ul>
+                          </li>
+                        </template>
+
+                        <template services-droplist>
+                          <li class="fdropdown">
+                            <a href="pages/services.html">Services</a>
+
+                            <ul>
+                              <li><a href="services.html">Our Services</a></li>
+                              <li>
+                                <a href="service-details.html"
+                                  >Service Details One</a
+                                >
+                              </li>
+                              <li>
+                                <a href="service-details2.html"
+                                  >Service Details Two</a
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                        </template>
+
+                        <template>
+                          <li class="fdropdown">
+                            <a href="pages/projects.html">Projects</a>
+
+                            <template project-droplist>
+                              <ul>
+                                <li>
+                                  <a href="projects.html">Project Grid</a>
+                                </li>
+                                <li>
+                                  <a href="project-list.html">Project List</a>
+                                </li>
+                                <li>
+                                  <a href="project-details.html"
+                                    >Project Details</a
+                                  >
+                                </li>
+                              </ul>
+                            </template>
+                          </li>
+                        </template>
+
+                        <template blog>
+                          <li class="dropdown">
+                            <a href="#">blog</a>
+                            <ul>
+                              <li><a href="blog.html">blog Grid</a></li>
+                              <li>
+                                <a href="blog-standard.html">blog standard</a>
+                              </li>
+                              <li>
+                                <a href="blog-details.html">blog details</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </template>
+                      </ul>
+                    </div>
+                  </template>
                 </nav>
                 <!-- Main Menu End-->
               </div>
@@ -286,30 +294,24 @@
 
           <!--Appointment Form-->
           <div class="appointment-form">
-            <form
-              method="post"
-              action="https://demo.webtend.net/html/ygency/contact.html"
-            >
+            <form method="post" name="appointment" netlify>
               <div class="form-group">
-                <input
-                  type="text"
-                  name="text"
-                  value=""
-                  placeholder="Name"
-                  required
-                />
+                <input type="text" name="name" placeholder="Name" required />
               </div>
               <div class="form-group">
                 <input
                   type="email"
                   name="email"
-                  value=""
                   placeholder="Email Address"
                   required
                 />
               </div>
               <div class="form-group">
-                <textarea placeholder="Message" rows="5"></textarea>
+                <textarea
+                  placeholder="Message"
+                  rows="5"
+                  name="message"
+                ></textarea>
               </div>
               <div class="form-group">
                 <button type="submit" class="theme-btn">Submit now</button>
@@ -318,12 +320,14 @@
           </div>
 
           <!--Social Icons-->
-          <div class="social-style-one">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          </div>
+          <template>
+            <div class="social-style-one">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </template>
         </div>
       </section>
       <!--End Hidden Sidebar -->
@@ -1095,21 +1099,25 @@
 
       <!-- Why Choose Us Area start -->
       <section class="why-choose-area pt-90 rpt-60 rel z-1">
-        <div class="container-fluid">
-          <div class="row">
-            <template why-choose-us-img>
-              <div class="col-xl-7">
-                <div
-                  class="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s"
-                >
-                  <img
-                    src="assets/images/services/why-choose-left.jpg"
-                    alt="Why Choose Left Image"
-                  />
-                </div>
+        <div class="container fcontainer-fluid">
+          <div class="row justify-content-center">
+            <template why-choose-us-img></template>
+            <div
+              class="col-xl-5 d-flex align-items-center justify-content-between"
+              style="fwidth: 70% !important"
+            >
+              <div
+                class="why-choose-left-image d-flex justify-content-center align-items-center mb-70 wow fadeInLeft delay-0-2s align-items-center"
+              >
+                <img
+                  src="assets/images/services/story5.png"
+                  alt="Why Choose Left Image"
+                  class="why-choose-us-imagef"
+                  style="width: 70%"
+                />
               </div>
-            </template>
-            <div class="col-xl-5">
+            </div>
+            <div class="col-xl-5" style="width: auto !important">
               <div class="why-choose-two-wrap">
                 <div class="section-title mb-55 wow fadeInUp delay-0-2s">
                   <span class="sub-title mb-15">Why Choose Us</span>
@@ -1148,7 +1156,7 @@
                 <div class="why-choose-item-two wow fadeInUp delay-0-7s">
                   <div class="icon">
                     <i class="fas fa-check"></i>
-                    <span class="icon-bottom-shape"></span>
+                    <template><span class="icon-bottom-shape"></span></template>
                   </div>
                   <div class="content">
                     <h4>
@@ -1160,20 +1168,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="why-choose-item-two wow fadeInUp delay-0-9s">
-                  <div class="icon">
-                    <i class="fas fa-check"></i>
+                <template>
+                  <div class="why-choose-item-two wow fadeInUp delay-0-9s">
+                    <div class="icon">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    <div class="content">
+                      <h4>
+                        <a href="#">Customization</a>
+                      </h4>
+                      <p>
+                        We understand the unique needs of each client and
+                        provide tailored solutions to meet their specific
+                        requirements.
+                      </p>
+                    </div>
                   </div>
-                  <div class="content">
-                    <h4>
-                      <a href="#">Customization</a>
-                    </h4>
-                    <p>
-                      We understand the unique needs of each client and provide
-                      tailored solutions to meet their specific requirements.
-                    </p>
-                  </div>
-                </div>
+                </template>
               </div>
             </div>
           </div>
